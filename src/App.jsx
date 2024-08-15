@@ -4,10 +4,8 @@ import Post from './components/Post'
 function App() {
   return  (
     <main>
-      <Post />
-      <Post />
-      <Post />
-      <Post />
+      <Post author="Maria" body="Reality hits me" />
+      <Post author="Manuel" body="checkout new products" />
     </main> );
 }
 
